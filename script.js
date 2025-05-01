@@ -7,7 +7,7 @@ const send2 = document.getElementById("send2");
 
 // Server URL -- where the test backend is , 
 // DEVELOPMENT
-const BASE_URL = 'http://localhost:4000';
+const BASE_URL = 'https://vboxbackend.kneotech.cloud';
 // production
 // const BASE_URL='https://hono-vercel-chat.vercel.app'
 
