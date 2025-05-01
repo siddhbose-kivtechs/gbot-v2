@@ -109,7 +109,8 @@ function SendMsgToServer(msg) {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({ message: msg }),
-        signal: AbortSignal.timeout(10000) // 10-second timeout
+        credentials: 'include',
+        signal: AbortSignal.timeout(10000) // 30-second timeout
     })
     .then((response) => {
         if (!response.ok) {
