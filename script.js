@@ -6,12 +6,12 @@ const send1 = document.getElementById("send1");
 const send2 = document.getElementById("send2");
 
 // Server URL -- where the test backend is , 
-// DEVELOPMENT 
-const BASE_URL='http://localhost:4000';
-// production 
+// DEVELOPMENT
+const BASE_URL = 'http://localhost:4000';
+// production
 // const BASE_URL='https://hono-vercel-chat.vercel.app'
 
-const SERVER_URL = "{BASE_URL}/api/chat";
+const SERVER_URL = `${BASE_URL}/api/chat`;
 
 
 // Event Listeners
